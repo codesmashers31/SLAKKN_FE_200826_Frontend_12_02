@@ -1,0 +1,92 @@
+/* .box {
+    background-color: aqua;
+    color: blue;
+    width: 50%;
+    height: 100px;
+    padding: 20px;
+    border: solid 1px blueviolet;
+    margin: 10px;
+}
+
+h1{
+    background-color: aliceblue;
+    padding: 30px;
+    text-align: center;
+    border: solid 1px blueviolet;
+    margin: 10px;
+}
+
+.parentone{
+    background-color: beige;
+    border: solid 1px;
+    padding: 10px;
+    margin: 10px;
+} */
+
+/* this is the css design */
+
+/* 
+.parent{
+    background-color: rgba(3, 133, 248, 0.855);
+    padding: 10px;
+    
+}
+
+
+.boxone{
+    
+    background-color: azure;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+
+} */
+
+body {
+    font-family:  "Roboto", sans-serif;
+}
+
+
+.parent{
+    background-color: aliceblue;
+    padding: 20px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    background-color: rgb(252, 252, 252);
+    color: black;
+    margin: auto;
+    width: 320px;
+    padding: 10px;
+    height: 350px;
+
+    border-radius: 15px;
+    box-shadow: -1px 2px 7px 8px rgb(231 227 227);
+}
+
+.cards > img {
+
+    width: 320px;
+     border-radius: 15px;
+    
+}
+
+.cards > h4{
+   
+   
+   margin-bottom: 40px;
+   margin-left: 8px;
+
+}
+
+span{
+    margin-left: 10px;
+}
+
+
