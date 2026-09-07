@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* .box{
+    background-image: url("../imgees/preview.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+
+.childbox{
+    background-color: aliceblue;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+  
+
+}
+
+
+.child{
+    background-color: rgb(15, 17, 17);
+    color: white;
+    padding: 10px;
+    display: none;
+    width: 100px;
+    height: 200px;
+} */
+
+
+
+.cards{
+
+   
+    background-color: aliceblue;
+    padding: 20px;
+    height: 100vh;
+
+
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    background-image: url(../imgees/preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+}
+
+
+.title{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: smaller;
+    width: 150px;
+    height: 30px;
+
+    
+}
+
+.para{
+
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: smaller;
+    width: 150px;
+    height: 40px;
+
+}
+
+
+
+
