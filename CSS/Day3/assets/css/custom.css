@@ -21,12 +21,18 @@ a {
 
 
 .parent{
-
+    
+    background-color: #fffaff;
     padding: 20px;
     display: flex;
     align-items: center;
     gap: 30px;
     padding-left: 60px;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 1px -14px 13px 8px black;
+    z-index: 3;
+    
 }
 
 .searchbox {
@@ -37,7 +43,7 @@ a {
     border-radius: 30px;
     border: none;
     color: black;
-     font-size: 15px;
+    font-size: 15px;
 }
 
 .nav{
@@ -48,10 +54,14 @@ a {
 
 
 .banner{
-    padding: 30px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 80px;
+    z-index: 2;
+    
 }
 
 .banner > img {
@@ -64,8 +74,67 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    position: relative;
+    top: 40px;
+    z-index: 2;
 }
 
 .imagescards > img {
     width: 170px
 }
+
+
+.cardsdesign{
+    position: relative;
+    z-index: 0;
+    top: 40px;
+    padding: 20px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.product{
+
+    
+    width: 340px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    z-index: 1;
+    transition: 1.0s;
+}
+
+h3{
+    text-transform: capitalize;
+}
+
+.offer{
+
+    position: absolute;
+    background-color: rgb(255, 212, 59);
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    left: 220px;
+    overflow: hidden;
+    
+    top: 20px;
+  
+
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(23, 131, 255);
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+

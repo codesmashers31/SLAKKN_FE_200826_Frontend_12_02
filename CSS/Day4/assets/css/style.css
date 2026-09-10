@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+
+    background-color: aquamarine;
+    padding: 20px;
+    position: relative;
+    height: 100vh;
+   
+
+}
+
+
+.title{
+
+    background-color: blue;
+    width: 300px;
+    height: 80px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    
+}
+
+
+.boxmove{
+    position: sticky;
+    top:20px;
+    
+}
+
+
+
+.box1{
+    background-color: beige;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    top: 80px;
+    left: 30px;
+    position: relative;
+    z-index: 1000;
+}
+
+.box2{
+    background-color: rgb(84, 84, 12);
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    top: 30px;
+    position: relative;
+    z-index: 1200;
+}
+
+.box3{
+    background-color: rgb(174, 174, 0);
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    left: 30px;
+    position: relative;
+    z-index: 988;
+}
+
+
+
+
+.boxflex{
+    background-color: antiquewhite;
+    color: blue;
+    height: 100vh;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+
+
+.boxnew{
+    background-color: rgb(16, 2, 2);
+    color: rgb(233, 225, 225);
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+

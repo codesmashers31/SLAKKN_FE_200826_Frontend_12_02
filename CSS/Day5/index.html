@@ -1,0 +1,161 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo - Class & Pseudo Elements</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="box">
+    <span class="spannew">BOX new
+      sjdhgsjdgh
+      sdjhsgd
+    </span>
+
+    <button class="btn">Click Me</button>
+  </div>
+  
+  <div>
+    <a href="#" class="link">Home</a>
+  </div>
+
+  <div>
+    <label for="demo">Enter the Name</label>
+    <input type="text" name="" id="demo">
+  </div>
+</body>
+</html>
+
+
+
+-->
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Practice Cards</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #1f2937;
+    }
+
+    .cards {
+      width: min(100%, 960px);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      overflow: hidden;
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 10px 24px rgba(31, 41, 55, 0.12);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 18px 32px rgba(31, 41, 55, 0.18);
+    }
+
+    .card-image {
+      height: 140px;
+      display: grid;
+      place-items: center;
+      font-size: 56px;
+      background: linear-gradient(135deg, #7c3aed, #38bdf8);
+    }
+
+    .card-content {
+      padding: 22px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #ede9fe;
+      color: #6d28d9;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    h2 {
+      margin: 14px 0 10px;
+      font-size: 22px;
+    }
+
+    p {
+      margin: 0 0 20px;
+      color: #6b7280;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 8px;
+      background: #7c3aed;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #5b21b6;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="cards">
+    <article class="card">
+      <div class="card-image">🎨</div>
+      <div class="card-content">
+        <span class="tag">Design</span>
+        <h2>Learn CSS</h2>
+        <p>Practice colours, spacing, shadows, borders, and hover effects.</p>
+        <a class="button" href="#">Start learning</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-image">💻</div>
+      <div class="card-content">
+        <span class="tag">Code</span>
+        <h2>Build Projects</h2>
+        <p>Create small web projects to improve your HTML and CSS skills.</p>
+        <a class="button" href="#">View project</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-image">🚀</div>
+      <div class="card-content">
+        <span class="tag">Growth</span>
+        <h2>Practice Daily</h2>
+        <p>Even 20 minutes of practice every day makes a visible difference.</p>
+        <a class="button" href="#">Keep going</a>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
