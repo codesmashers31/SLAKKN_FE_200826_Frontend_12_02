@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+ 
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.parent{
+  
+ 
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+
+}
+
+.box{
+ 
+    background-color: blue;
+    padding: 20px;
+   
+    border: 5px solid black;
+    overflow: hidden;
+
+}
+
+
+
+
+
+@media(max-width:728px){
+
+    .parent{
+
+  
+  display: grid;
+  
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  height: 80vh;
+  place-items: center;
+   
+    
+  
+}
+
+body {
+
+    background-color: aqua;
+    height: 100vh;
+    
+}
+
+}
