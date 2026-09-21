@@ -1,0 +1,23 @@
+{
+  "name": "ai-war-2030",
+  "version": "1.0.0",
+  "description": "AI WAR 2030: OpenAI vs Anthropic vs Google Gemini & The Developer Survival Guide",
+  "private": true,
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "ai-war",
+    "openai",
+    "anthropic",
+    "gemini",
+    "developer-guide",
+    "2030-scenarios",
+    "mcp",
+    "agents"
+  ],
+  "author": "Google Deepmind Team",
+  "license": "MIT"
+}
